@@ -1,36 +1,32 @@
-### basics
+### v0.0.1 - simple wrapper for HTTP invocations
+
+Wraps the results from the web service at [JC Decaux](https://developer.jcdecaux.com/#/opendata/vls?page=getstarted) in `Hashie::Mash` objects for ease of access.
+
+You will need to get a developer key from the website to participate.
+
+Make a client - send your API key and the 'contract' you are targeting
 
 ```
-class Station
-  number / name / location 
-  
-  can_pay
-  
-  bonus?
-  
-  open?
-  
-  stands - total, empty, bikes
-  
+require 'bikes'
+
+b = Bikes.new(YOUR_API_KEY, "Dublin")
 ```
 
+Get an array of the stations for that contract
 ```
-class Client
-  initialize(api_key)
-
-  bikescheme('dublinbikes')
+stations = b.stations
 ```
 
+Get details of a specific station, uses the station number
+
 ```
- c = Client.new("7042a5efadece1f3839371445a1ae3d0983d78b7")
- 
- bikes = c.bikescheme('dublinbikes')
- 
- # No such scheme dude
- 
- bikes.stations -> hash of stations, based on name
- 
- bikes.station(name or number)
- 
- 
-  
+> s = b.station(88)
+> s.name
+ => "BLACKHALL PLACE"
+```
+
+Get an array of all the 'contracts' that are deployed - each contract refers to one or more cities covered by a specific instance of the bike scheme
+
+```
+b.contracts
+```
