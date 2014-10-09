@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Rouen",
+    "cities": [
+      "Rouen"
+    ],
+    "commercial_name": "cy'clic",
+    "country_code": "FR"
+  },
+  {
+    "name": "Dublin",
+    "cities": [
+      "Dublin"
+    ],
+    "commercial_name": "dublinbikes",
+    "country_code": "IE"
+  },
+  {
+    "name": "Stockholm",
+    "cities": [
+      "Stockholm"
+    ],
+    "commercial_name": "Cyclocity",
+    "country_code": "SE"
+  },
+  {
+    "name": "Toyama",
+    "cities": [
+      "Toyama"
+    ],
+    "commercial_name": "cyclocity",
+    "country_code": "JP"
+  }
+]

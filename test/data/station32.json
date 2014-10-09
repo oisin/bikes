@@ -1,0 +1,17 @@
+{
+  "number": 32,
+  "name": "PEARSE STREET",
+  "address": "Pearse Street",
+  "position": {
+    "lat": 53.344304,
+    "lng": -6.250427
+  },
+  "banking": true,
+  "bonus": false,
+  "status": "OPEN",
+  "contract_name": "Dublin",
+  "bike_stands": 30,
+  "available_bike_stands": 2,
+  "available_bikes": 27,
+  "last_update": 1412874747000
+}
