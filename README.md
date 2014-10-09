@@ -23,6 +23,10 @@ Get details of a specific station, uses the station number
 > s = b.station(88)
 > s.name
  => "BLACKHALL PLACE"
+> s.available_bikes
+ => 26
+> s.available_bike_stands
+ => 4
 ```
 
 Get an array of all the 'contracts' that are deployed - each contract refers to one or more cities covered by a specific instance of the bike scheme
