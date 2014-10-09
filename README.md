@@ -1,4 +1,4 @@
-### v0.0.1 - simple wrapper for HTTP invocations
+### v0.0.2 - simple wrapper for HTTP invocations
 
 Wraps the results from the web service at [JC Decaux](https://developer.jcdecaux.com/#/opendata/vls?page=getstarted) in `Hashie::Mash` objects for ease of access.
 
@@ -34,3 +34,16 @@ Get an array of all the 'contracts' that are deployed - each contract refers to 
 ```
 b.contracts
 ```
+
+**Testing**
+
+Local testing happens using Webmock. To run the tests
+
+```
+git clone https://github.com/oisin/bikes.git
+cd bikes
+bundle install
+bundle exec rake
+```
+
+Coverage is supplied courtesy of SimpleCov, and can be found in the `coverage` directory after a successful test run.
