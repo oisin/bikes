@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.description = "Ruby client for JCDecaux urban bike rental schemes"
   s.authors     = ["Oisin Hurley"]
   s.email       = 'oisin@nis.io'
-  s.files       = `git ls-files`.split("\n")
+  s.files       = ['LICENSE.txt', 'README.md'] + Dir['test/**/*'] + Dir['lib/**/*']
   s.homepage    = 'http://rubygems.org/gems/bikes'
   s.add_runtime_dependency 'httparty', '~> 0.13', '>= 0.13.1'
   s.add_runtime_dependency 'json', '~> 1.8', '>= 1.8.1'
