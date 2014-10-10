@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'json', '~> 1.8', '>= 1.8.1'
   s.add_runtime_dependency 'hashie', '~> 2.1', '>= 2.1.2'
   s.add_development_dependency 'webmock', '~> 1.19', '>= 1.19.0'
-  s.add_development_dependency 'minitest', '~> 5.3', '>= 5.3.5'
+  s.add_development_dependency 'minitest', '~> 5.4', '>= 5.4.2'
 end
