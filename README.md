@@ -1,9 +1,4 @@
-[![Build Status](https://travis-ci.org/oisin/bikes.svg?branch=master)](https://travis-ci.org/oisin/bikes)
-[![Gem Version](https://badge.fury.io/rb/bikes.png)](http://badge.fury.io/rb/bikes)
-[![Dependency Status](https://gemnasium.com/oisin/bikes.svg)](https://gemnasium.com/oisin/bikes)
-[![Coverage Status](https://coveralls.io/repos/oisin/bikes/badge.png)](https://coveralls.io/r/oisin/bikes)
-
-### v0.0.2 - simple wrapper for HTTP invocations
+### v0.0.3 - simple wrapper for HTTP invocations
 
 Wraps the results from the web service at [JC Decaux](https://developer.jcdecaux.com/#/opendata/vls?page=getstarted) in `Hashie::Mash` objects for ease of access.
 
